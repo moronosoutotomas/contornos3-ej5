@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <header>
     <h1>Carrito de Compras</h1>
-    <a href="index.php">Volver al Catálogo</a>
+    <a href="tienda.php">Volver al Catálogo</a>
   </header>
 
   <main>
