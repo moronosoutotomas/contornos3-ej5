@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5dc;
+  /* Beige claro */
+  color: #333;
+  /* Marrón oscuro */
+}
+
+header,
+footer {
+  background-color: #d2b48c;
+  /* Marrón claro */
+  color: #fff;
+  /* Blanco */
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.producto {
+  width: 200px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5deb3;
+  /* Trigo */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.producto img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.carrito {
+  margin: 20px;
+}
+
+.carrito table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.carrito th,
+.carrito td {
+  padding: 8px;
+  border: 1px solid #d2b48c;
+  /* Marrón claro */
+}
+
+.carrito th {
+  background-color: #d2b48c;
+  /* Marrón claro */
+  color: #fff;
+  /* Blanco */
+}
+
+.carrito td {
+  background-color: #f5deb3;
+  /* Trigo */
+}
+
+button {
+  background-color: #d2b48c;
+  /* Marrón claro */
+  color: #fff;
+  /* Blanco */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #b8860b;
+  /* Dorado oscuro */
+}
